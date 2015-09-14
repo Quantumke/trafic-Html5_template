@@ -32,13 +32,77 @@ font-size: 30px;
 
 .header-text {
 
-    margin-left:15%;
+    margin-left:20%;
     position: absolute;
     top: 300px;
    font-size: 50px;
    text-transform: uppercase;
    color: yellow;
+    font-family: KTF-Roadbrush;
 
 }
 
 
+
+.header-text-small {
+  margin-left:400px;
+    position: absolute;
+    top: 80px;
+   font-size: 40px;
+   text-transform: uppercase;
+   color: yellow;
+  font-style: italic;
+ font-family: KTF-Roadbrush
+}
+
+.btn-1 {
+width: 170px;
+z-index: 50;
+position: absolute;
+left:550px;
+top: 150px;
+border:2px yellow solid;
+cursor: pointer;
+background: transparent;
+text-align: center;
+text-transform: uppercase;
+color: yellow;
+font-size: 20px;
+padding: 12px 24px;
+    margin:4px 16px;
+
+
+}
+.btn-2 {
+width: 170px;
+z-index: 50;
+position: absolute;
+margin-left:500px;
+top: 150px;
+border:2px yellow solid;
+cursor: pointer;
+background: black;
+text-align: center;
+text-transform: uppercase;
+color: yellow;
+font-size: 20px;
+padding: 12px 24px;
+margin:4px 16px;
+
+
+}
+
+
+.btn-1:hover{
+ border: 2px solid #000;
+    outline: 0;
+    color: yellow;
+    background-color: #000;
+}
+
+.btn-2:hover{
+ border: 2px solid #000;
+    outline: 0;
+    color: black;
+    background-color: yellow;
+}
