@@ -1,10 +1,14 @@
 
+
+
 .header-custom {
 width: 100%;
     height: 694px;
     background: url(../img/header.jpg);
         background-size:cover;
         background-repeat: no-repeat; 
+        margin-left: 0px;
+        margin-bottom: 30px;
 }
 
 .site-logo {
@@ -32,34 +36,36 @@ font-size: 30px;
 
 .header-text {
 
-    margin-left:20%;
+    margin-left:10%;
     position: absolute;
     top: 300px;
    font-size: 50px;
    text-transform: uppercase;
    color: yellow;
-    font-family: KTF-Roadbrush;
+    /*font-family: KTF-Roadbrush; */
+    font-family: monoton;
+
 
 }
 
 
 
 .header-text-small {
-  margin-left:400px;
+  margin-left:500px;
     position: absolute;
     top: 80px;
    font-size: 40px;
    text-transform: uppercase;
    color: yellow;
   font-style: italic;
- font-family: KTF-Roadbrush
+  font-family: monoton;
 }
 
 .btn-1 {
 width: 170px;
 z-index: 50;
 position: absolute;
-left:550px;
+left:30px;
 top: 150px;
 border:2px yellow solid;
 cursor: pointer;
@@ -70,14 +76,14 @@ color: yellow;
 font-size: 20px;
 padding: 12px 24px;
     margin:4px 16px;
-
+ font-family: KTF-Roadbrush
 
 }
 .btn-2 {
 width: 170px;
 z-index: 50;
 position: absolute;
-margin-left:500px;
+left:800px;
 top: 150px;
 border:2px yellow solid;
 cursor: pointer;
@@ -88,7 +94,7 @@ color: yellow;
 font-size: 20px;
 padding: 12px 24px;
 margin:4px 16px;
-
+ font-family: KTF-Roadbrush
 
 }
 
@@ -105,4 +111,65 @@ margin:4px 16px;
     outline: 0;
     color: black;
     background-color: yellow;
+
+}
+.side-banner {
+width: 170px;
+z-index: 50;
+position: absolute;
+left:1215px;
+top: 250px;
+border:2px yellow solid;
+cursor: pointer;
+background: transparent;
+text-align: center;
+text-transform: uppercase;
+color: yellow;
+font-size: 20px;
+padding: 12px 24px;
+   /* Rotate div */
+    -ms-transform: rotate(90deg); /* IE 9 */
+    -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
+    transform: rotate(90deg);
+    font: xx-small;
+}
+
+
+#slideout {
+  background: #fff;
+  box-shadow: 0 0 5px rgba(0,0,0,.3);
+  color: #333;
+  position: fixed;
+  top: 100px;
+  left: -520px;
+  width: 500px;
+  -webkit-transition-duration: 0.3s;
+  -moz-transition-duration: 0.3s;
+  -o-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+#slideout form {
+  display: block;
+  padding: 20px;
+}
+#slideout textarea {
+  display:block;
+  height: 100px;
+  margin-bottom: 6px;
+  width: 250px;
+}
+#slideout.on {
+  left: 0;
+
+}.about-us {
+    width: 100%;
+    height: 300px;
+    background: url(../img/bg-about.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+
+
+
+
 }
