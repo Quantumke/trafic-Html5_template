@@ -245,3 +245,13 @@ color: yellow;
  font-size: 20px;
  border-bottom: 3px yellow solid;
 }
+
+.body-go-zones {
+max-height:  200px;
+
+}
+
+.clear-100 {
+text-align: left;
+float: left;
+}
