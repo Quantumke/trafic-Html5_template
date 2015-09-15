@@ -194,7 +194,7 @@ width: 100%;
 }
 
 .hdr-custom {
-margin-left: 50%;
+margin-left:45%;
 top: 30px;
 padding-top: 60px;
 color: yellow;
@@ -204,6 +204,8 @@ color: yellow;
 color: yellow;
 text-align: center;
 font-size: 20px;
-
+ font-family: monoton;
+ text-transform: uppercase;
+ margin-top: 20px;
 
 }
