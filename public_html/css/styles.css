@@ -216,3 +216,32 @@ top: 30px;
 padding-top: 60px;
 color: yellow;
 }
+
+.go {
+
+    background: green;
+    height: 200px;
+    margin: 0px;
+}
+
+.stop-custom {
+ background: red;
+    height: 200px;
+     margin: 0px;
+}
+
+.info-facts {
+width: 100%;
+height: 200px;
+margin-top: 30px;
+
+}
+
+.title-go-zone {
+margin-left: 30%;
+text-transform:  uppercase;
+color: yellow;
+ font-family: monoton;
+ font-size: 20px;
+ border-bottom: 3px yellow solid;
+}
