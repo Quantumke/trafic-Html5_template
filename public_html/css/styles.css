@@ -169,18 +169,18 @@ padding: 12px 24px;
     background-repeat: no-repeat;
 }
 .facts-c{
-  background: red;
+ 
     height: 300px;
     margin: 0px;
 }
 
 .facts-b{
-  background: yellow;
+  
     height: 300px;
     margin: 0px;
 }
 .facts-a{
-  background: green;
+
     height: 300px;
     margin: 0px;
 }
@@ -208,4 +208,11 @@ font-size: 20px;
  text-transform: uppercase;
  margin-top: 20px;
 
+}
+
+.hdr-custom-description {
+margin-left:45%;
+top: 30px;
+padding-top: 60px;
+color: yellow;
 }
