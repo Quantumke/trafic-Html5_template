@@ -167,9 +167,43 @@ padding: 12px 24px;
     background: url(../img/bg-about.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+}
+.facts-c{
+  background: red;
+    height: 300px;
+    margin: 0px;
+}
+
+.facts-b{
+  background: yellow;
+    height: 300px;
+    margin: 0px;
+}
+.facts-a{
+  background: green;
+    height: 300px;
+    margin: 0px;
+}
 
 
 
+
+.section {
+width: 100%;
+
+}
+
+.hdr-custom {
+margin-left: 50%;
+top: 30px;
+padding-top: 60px;
+color: yellow;
+}
+
+.hdr-custom-text {
+color: yellow;
+text-align: center;
+font-size: 20px;
 
 
 }
